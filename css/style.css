@@ -1,0 +1,70 @@
+table {
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid #e7e1e1;
+    color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    background-color: #1A1A1A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+    color: darkviolet;
+}
+
+.male a:hover{
+    color: rgb(43, 231, 222);
+}
+
+.female a:hover{
+    color: #ff4ee2;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #333333;
+}
+
+table th,
+td {
+    border: 1px solid #404040;
+    padding: 20px 20px;
+}
+
+.main {
+    font-size: large;
+    font-weight: 300;
+}
+
+.main-name {
+    background-color: #E68387;
+}
+
+.main-surname {
+    background-color: #e66c70;
+}
+
+.main-email {
+    background-color: #e75d62;
+}
+
+.main-contact {
+    background-color: #eb4c52;
+}
+
+.main-female-male {
+    background-color: #d6464b;
+}
+
+tr:hover{
+    background-color: #a09a9a;
+    text-align: end;
+    text-decoration: solid;
+    text-decoration-color: darkmagenta ;
+    text-decoration-line: underline;
+}
+
